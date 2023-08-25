@@ -32,11 +32,7 @@ export const Navbar = () => {
                   Home
                 </a>
 
-                <a
-                  className="nav-link"
-                  title="About Park"
-                  href="https://main--friendsofarnospark.netlify.app/about"
-                >
+                <a className="nav-link" title="About Park" href="/about">
                   About
                 </a>
                 <a className="nav-link" title="Park events" href="/events">

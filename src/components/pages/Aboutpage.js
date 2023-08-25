@@ -3,7 +3,7 @@ import { Navbar } from "../atomic/Navbar";
 import "./Aboutpage.css";
 import { aboutUsText } from "../../constants";
 
-export const Aboutpage = () => {
+const Aboutpage = () => {
   return (
     <div>
       <Navbar />
@@ -156,3 +156,4 @@ export const Aboutpage = () => {
     </div>
   );
 };
+export default Aboutpage;
