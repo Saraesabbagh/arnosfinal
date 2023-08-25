@@ -1,0 +1,126 @@
+:root {
+  --primary-color: #044a42;
+  --secondary-color: #b8e1dd;
+  --third-color: #3a918a;
+  --fourth-color: #072925;
+  /* --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); */
+}
+
+body {
+  margin: 0 auto;
+  max-width: 2000px;
+  /* background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+}
+
+.about-hero {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/groundforceday.jpeg");
+  height: 100vh;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* width: 100vw;
+        height: 100vh; */
+}
+.about-hero-title-container {
+  /* background-color: #044a42; */
+  padding: 10px;
+  border-radius: 30px;
+}
+.about-hero-title {
+  color: primary-color;
+  margin-top: 150px;
+  background-color: rgba(255, 255, 255, 0.5);
+  /* background-color: rgba(0, 0, 0, . 1); */
+}
+.about-hero-content {
+  position: relative;
+
+  text-align: center;
+}
+
+/* #hero-button {
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #044a42;
+    margin-top: 10px;
+  }
+  
+  #hero-button:hover {
+    cursor: pointer;
+    background-color: #3a9189;
+  } */
+
+.grey-background-container {
+  background-color: #ebebf1;
+}
+
+.historicalviaduct {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: auto;
+  padding-top: 50px;
+  align-items: center;
+  align-self: center;
+  margin-left: 20px;
+}
+
+.historicalviaductfrombelow {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+  padding-top: 50px;
+  align-self: center;
+  margin-right: 20px;
+}
+
+.mission-statement-container {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+/* .mission-row {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-allign: center;
+    display-items: center;
+    padding: 10px;
+  } */
+.about-overview {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 20px;
+}
+
+.about-overview > p {
+  text-align: center;
+}
+
+.history-container {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.history-container > img {
+  margin-bottom: 40px;
+}
