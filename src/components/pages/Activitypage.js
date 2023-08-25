@@ -25,7 +25,9 @@ function Activitypage() {
         <div class="container mb-2 mt-5" id="first-row-container">
           <div class="row" id="first-row-dark-green">
             <div class="col-md-6">
-              <h2 class="mb-3 mt-3 row-title">Home Education Group</h2>
+              <h2 class="mb-3 mt-3 row-title">
+                Arnos Home Education gardening Group
+              </h2>
               <p class="row-text">
                 <p>
                   Home education group once a week in the growing space at Arnos
