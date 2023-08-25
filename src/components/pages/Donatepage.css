@@ -1,8 +1,8 @@
 .donate-hero {
   display: flex;
   flex-direction: column;
-  background-image: url("../images/mistyarnospark.jpeg");
-  height: 80vh;
+  background-image: url("../images/sidebridge.jpeg");
+  height: 100vh;
   align-self: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,6 +12,7 @@
   width: 100%;
   /* width: 100vw;
           height: 100vh; */
+  margin-bottom: 40px;
 }
 
 .box {
@@ -21,6 +22,9 @@
   align-items: center;
   width: 100%;
   height: 100vh;
+}
+.donate-subtitle {
+  color: white;
 }
 
 .paypal {
@@ -61,4 +65,56 @@
       font-size: 20px;
     }
   }
+}
+
+.contact-card {
+  height: 20vh;
+  width: 40%;
+  background-color: #044a42;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-card:hover {
+  background-color: #3a918a;
+}
+
+.contact-card-text {
+  color: white;
+  font-weight: 600;
+}
+
+.contact-card-text > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-hero-title-container {
+  /* background-color: #044a42; */
+  padding: 10px;
+  border-radius: 30px;
+}
+.contact-hero-title {
+  color: white;
+  padding-top: 180px;
+}
+.contact-hero-content {
+  position: relative;
+
+  text-align: center;
+}
+h4,
+h3 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.auction-listings {
+  margin-top: 40px;
 }

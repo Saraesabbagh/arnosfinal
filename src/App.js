@@ -6,6 +6,7 @@ import { Eventspage } from "./components/pages/Eventspage";
 import { Gallerypage } from "./components/pages/Gallerypage";
 import { Contactpage } from "./components/pages/Contactpage";
 import Donatepage from "./components/pages/Donatepage";
+import Activitypage from "./components/pages/Activitypage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<Aboutpage />} />
+          <Route path="/activities" element={<Activitypage />} />
           <Route path="/events" element={<Eventspage />} />
           <Route path="/gallery" element={<Gallerypage />} />
           <Route path="/contact" element={<Contactpage />} />

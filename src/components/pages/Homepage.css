@@ -16,7 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   background-image: url("../images/sidebridge.jpeg");
-  height: 85vh;
+  height: 100vh;
   align-self: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -113,8 +113,10 @@ function Homepage() {
                 <h2 class="mb-3 mt-3 row-title">About</h2>
                 <p class="row-text">
                   <p>
-                    Find out about what the committee gets up to and about the
-                    rich history of the park
+                    Arnos Park has a rich local history. On the about page you
+                    can find out about all the local history of the park as well
+                    as the mission statement and goals of the Friends of Arnos
+                    Park commitee iteslf.
                   </p>
                 </p>
                 <div class="mt-5 mb-5">
@@ -130,7 +132,7 @@ function Homepage() {
               <div class="col-md-6 row-image">
                 <img
                   width="600"
-                  src={require("../images/mistyarnospark.jpeg")}
+                  src={require("../images/committeegroundforce.jpeg")}
                   alt="mistyarnospark"
                   class="img-fluid row mt-3 mb-4 dark-green-row-image"
                 />
@@ -141,9 +143,36 @@ function Homepage() {
           <div class="container mb-2">
             <div class="row" id="light-green-row">
               <div class="col-md-6 mt-2 mb-3">
+                <h2 class="mb-3 row-title">Activites</h2>
+                <p class="row-text">
+                  Find out about our regular park clubs and Activites
+                </p>
+                <div class="mt-5 mb-5">
+                  <a
+                    href="/activites.html"
+                    title="go to activities"
+                    class="primary-link  primary-link-lightgreen"
+                  >
+                    Go to Activities
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6 row-image">
+                <img
+                  width="500"
+                  height="auto"
+                  src={require("../images/activityhero.png")}
+                  alt="halloween group"
+                  class="img-fluid row mt-3 mb-0 halloween-image"
+                />
+              </div>
+            </div>
+            <div class="row" id="light-green-row">
+              <div class="col-md-6 mt-2 mb-3">
                 <h2 class="mb-3 row-title">Events</h2>
                 <p class="row-text">
-                  Find out about upcoming events at the park
+                  By going to the events page you can take a look at the
+                  calendar for the year with all the events outlined.
                 </p>
                 <div class="mt-5 mb-5">
                   <a

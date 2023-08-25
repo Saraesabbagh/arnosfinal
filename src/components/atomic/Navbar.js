@@ -31,9 +31,15 @@ export const Navbar = () => {
                 <a className="nav-link" href="/">
                   Home
                 </a>
-
                 <a className="nav-link" title="About Park" href="/about">
                   About
+                </a>
+                <a
+                  className="nav-link"
+                  title="Park Activities"
+                  href="/activities"
+                >
+                  Activities
                 </a>
                 <a className="nav-link" title="Park events" href="/events">
                   Events

@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import { Navbar } from "../atomic/Navbar";
-import "./Eventspage.css";
+import "./Gallerypage.css";
 // import { useState, useEffect } from "react";
 // import axios from "axios";
 import { galleryImageUrls } from "../../constants";
@@ -29,10 +29,10 @@ export const Gallerypage = () => {
   return (
     <div>
       <Navbar />
-      <section className="events-hero">
-        <div className="events-hero-content">
-          <div className="events-hero-title-container">
-            <h1 className="events-hero-title">Gallery</h1>
+      <section className="gallery-hero">
+        <div className="gallery-hero-content">
+          <div className="gallery-hero-title-container">
+            <h1 className="gallery-hero-title">Gallery</h1>
           </div>
         </div>
       </section>
