@@ -92,6 +92,14 @@ body {
   justify-content: center;
   gap: 18px;
 }
+.mission-content-container {
+  max-width: 1000px;
+}
+.mission-p {
+  text-allign: center;
+  display: flex;
+  margin-left: 40px;
+}
 /* .mission-row {
     margin-left: 10px;
     margin-right: 10px;

@@ -20,46 +20,47 @@ const Aboutpage = () => {
       </div>
       <div class="grey-background-container">
         <div class="mission-statement-container">
-          <h2>Mission Statement</h2>
-          <p>
-            As a community organisation, the Friends of Arnos Park will work to
-            achieve the following Mission Statements:
-          </p>
+          <div class="mission-content-container">
+            <h2>Mission Statement</h2>
+            <p class="mission-p">
+              As a community organisation, the Friends of Arnos Park will work
+              to achieve the following Mission Statements:
+            </p>
+            <p class="mission-p">
+              If you would like to help us achieve these aims, please
+              <a href="/contact"> contact us.</a>
+            </p>
 
-          <div class="row mission-row">
-            <div class="col-md-6">
-              <p>
-                <b>1.</b> Increase biodiversity
-              </p>
-              <p>
-                {" "}
-                <b>2.</b> Help maintain the tidiness of the Park
-              </p>
-              <p>
-                <b>3.</b> Develop the area of the old playground
-              </p>
-            </div>
-            <div class="col-md-6">
-              <p>
-                <b>4.</b> Bring the community together for a common purpose: "To
-                Make Your Park a Better Place.""
-              </p>
-              <p>
-                <b>5.</b> Fundraising for improvements
-              </p>
+            <div class="row mission-row">
+              <div class="col-md-6">
+                <p>
+                  <b>1.</b> Increase biodiversity
+                </p>
+                <p>
+                  {" "}
+                  <b>2.</b> Help maintain the tidiness of the Park
+                </p>
+                <p>
+                  <b>3.</b> Develop the area of the old playground
+                </p>
+              </div>
+              <div class="col-md-6">
+                <p>
+                  <b>4.</b> Bring the community together for a common purpose:
+                  "To Make Your Park a Better Place.""
+                </p>
+                <p>
+                  <b>5.</b> Fundraising for improvements
+                </p>
+              </div>
             </div>
           </div>
-          <p>
-            If you would like to help us achieve these aims, please
-            <a href="/contact"> contact us.</a>
-          </p>
         </div>
       </div>
       <div class="history-container">
         <h2>A Brief History of our Park</h2>
         <img
-          // width="300"
-          // height="auto"
+          style={{ width: "500px", height: "auto", margin: "10px" }}
           src={require("../images/historicalviaduct.jpeg")}
           alt="historicalviaduct"
           class="historicalviaduct"
@@ -107,8 +108,7 @@ const Aboutpage = () => {
         </p>
 
         <img
-          //   width="300"
-          //   height="auto"
+          style={{ width: "600px", height: "auto", margin: "10px" }}
           src={require("../images/historicalviaductfrombelow.jpeg")}
           alt="historicalviaduct"
           class="img-fluid row  historicalviaductfrombelow"
