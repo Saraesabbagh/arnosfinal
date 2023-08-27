@@ -118,6 +118,14 @@ h3 {
 .auction-listings {
   margin-top: 40px;
 }
+
+.bidding-section {
+  margin: 40px;
+}
+
+.contact-cards-container {
+  margin-top: 30px;
+}
 @media (max-width: 768px) {
   /* Adjust font sizes for smaller screens */
   h1 {
