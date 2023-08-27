@@ -282,9 +282,53 @@ p {
 .activity-gallery {
   align-items: center;
   justify-contact: space-evenly;
-  magrgin-left: 40px;
+  /* display: flex;
+  flex: auto; */
 }
 
 .gallery-container {
-  margin-left: 40px;
+  /* margin-left: 40px; */
+}
+@media (max-width: 768px) {
+  /* Adjust font sizes for smaller screens */
+  h1 {
+    font-size: 36px;
+  }
+
+  h2,
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  /* Adjust padding and margin for smaller screens */
+  .row {
+    padding-left: 1rem;
+  }
+
+  /* Center images for smaller screens */
+  .row-image {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  /* Adjust the size of the hero background image */
+  /* .activity-hero {
+    background-size: contain;
+  } */
+
+  /* Other adjustments for smaller screens */
+  .activity-hero-title-container {
+    border-radius: 20px;
+  }
+
+  .activity-hero-button {
+    margin-top: 5px;
+  }
+
+  /* Adjust other elements as needed */
 }

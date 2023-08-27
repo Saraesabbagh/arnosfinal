@@ -20,7 +20,6 @@ const Donatepage = () => {
                 marginTop: "20px",
               }}
             >
-              <p>Placeholder text</p>
               <a
                 href="https://www.paypal.com/donate/?hosted_button_id=U3W76M6Q5Q7VS"
                 rel="noreferrer"
@@ -36,13 +35,14 @@ const Donatepage = () => {
           </div>
         </div>
       </section>
-      {/* <section class="bidding-section">
+      <section class="bidding-section">
         <section>
           <h2>Summer Picnic Auction Items</h2>
           <h3>
             Have a look at the amazing offers going up for silent auction at our
             summer fair. Items that don't meet their reserve on the day will be
-            available to bid for through here! Get your bids in now!
+            available to bid for through here! Get your bids in now! Deadline
+            Saturday 2/9/2023!
           </h3>
 
           <div class="contact-cards-container">
@@ -89,7 +89,7 @@ const Donatepage = () => {
             </section>
           </div>
         </section>
-      </section> */}
+      </section>
     </div>
   );
 };

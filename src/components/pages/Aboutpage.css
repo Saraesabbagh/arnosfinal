@@ -15,7 +15,7 @@ body {
 .about-hero {
   display: flex;
   flex-direction: column;
-  background-image: url("../images/groundforceday.jpeg");
+  background-image: url("../images/halloweengroupsquare.png");
   height: 100vh;
   align-self: center;
   background-repeat: no-repeat;
@@ -131,4 +131,81 @@ body {
 }
 .history-container > img {
   margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  /* Adjust font sizes for smaller screens */
+  h1 {
+    font-size: 36px;
+  }
+
+  h2,
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  /* Adjust padding and margin for smaller screens */
+  .row {
+    padding-left: 1rem;
+  }
+
+  /* Center images for smaller screens */
+  .row-image {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  /* .hero-title-container {
+    /* border-/* Adjust the size of the hero background image */
+  /* .about-hero { */
+  /* display: flex;
+    allign-items: center; */
+  /* background-size: fit; */
+  /* } */
+
+  /* Other adjustments for smaller screens */
+  /* .about-heradius: 20px;
+  }
+
+  .about-hero-button {
+    margin-top: 5px;
+  } */
+  .about-hero {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/halloweengroupsquare.png");
+    height: 100vh;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* width: 100vw;
+          height: 100vh; */
+  }
+  .about-hero-title-container {
+    /* background-color: #044a42; */
+    padding: 10px;
+    border-radius: 30px;
+  }
+  .about-hero-title {
+    color: primary-color;
+    margin-top: 150px;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* background-color: rgba(0, 0, 0, . 1); */
+  }
+  .about-hero-content {
+    position: relative;
+
+    text-align: center;
+  }
+
+  /* Adjust other elements as needed */
 }
