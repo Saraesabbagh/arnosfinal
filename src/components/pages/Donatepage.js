@@ -35,7 +35,7 @@ const Donatepage = () => {
           </div>
         </div>
       </section>
-      <section class="bidding-section">
+      {/* <section class="bidding-section">
         <section>
           <h2>Summer Picnic Auction Items</h2>
           <h3>
@@ -89,7 +89,7 @@ const Donatepage = () => {
             </section>
           </div>
         </section>
-      </section>
+      </section> */}
     </div>
   );
 };

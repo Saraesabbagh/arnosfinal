@@ -15,6 +15,11 @@ export const Eventspage = () => {
       </section>
       <section class="events-poster">
         <img
+          src={require("../images/halloweenposter.jpg")}
+          alt="park events list"
+          class="img-fluid row mt-3 mb-4 "
+        />
+        <img
           src={require("../images/parkevents.jpeg")}
           alt="park events list"
           class="img-fluid row mt-3 mb-4 "
