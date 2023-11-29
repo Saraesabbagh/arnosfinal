@@ -16,7 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   background-image: url("../images/mistyarnospark.jpeg");
-  height: 100vh;
+  height: 80vh;
   align-self: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,10 +53,22 @@ body {
       cursor: pointer;
       background-color: #3a9189;
     } */
-.events-poster {
-  padding: 30px;
+.center-container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 100vh;
 }
 
+.events-poster {
+  text-align: center; /* Center the images within the container */
+}
+
+.events-poster img {
+  max-width: 100%; /* Make sure images don't exceed the container width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 10px; /* Add some margin between images if needed */
+}
 @media (max-width: 768px) {
   /* Adjust font sizes for smaller screens */
   h1 {
@@ -94,7 +106,7 @@ body {
     border-radius: 20px;
   }
 
-  #.events-hero-button {
+  .events-hero-button {
     margin-top: 5px;
   }
 
