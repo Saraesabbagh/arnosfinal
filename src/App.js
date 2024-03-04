@@ -7,6 +7,7 @@ import { Gallerypage } from "./components/pages/Gallerypage";
 import { Contactpage } from "./components/pages/Contactpage";
 import Donatepage from "./components/pages/Donatepage";
 import Activitypage from "./components/pages/Activitypage";
+import { Newspage } from "./components/pages/Newspage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />
+          <Route path="/news" element={<Newspage />} />
           <Route path="/about" element={<Aboutpage />} />
           <Route path="/activities" element={<Activitypage />} />
           <Route path="/events" element={<Eventspage />} />

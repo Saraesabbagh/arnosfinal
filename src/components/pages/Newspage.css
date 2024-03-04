@@ -1,0 +1,56 @@
+:root {
+    --primary-color: #044a42;
+    --secondary-color: #b8e1dd;
+    --third-color: #3a918a;
+    --fourth-color: #072925;
+    /* --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); */
+  }
+  
+  body {
+    margin: 0 auto;
+    max-width: 2000px;
+    /* background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+  }
+  
+  .events-hero {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/mistyarnospark.jpeg");
+    height: 50vh;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* width: 100vw;
+          height: 100vh; */
+  }
+  .events-hero-title-container {
+    /* background-color: #044a42; */
+    padding: 10px;
+    border-radius: 30px;
+  }
+  .events-hero-title {
+    color: white;
+  }
+  .events-hero-content {
+    position: relative;
+  
+    text-align: center;
+  }
+  
+
+  
+  .news-center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .events-poster {
+    text-align: center;
+    max-width: 800px; /* Adjust the maximum width based on your design */
+    margin: 0 auto;
+  }
