@@ -23,6 +23,20 @@ export const Newspage = () => {
             guidance on how park and road users may be affected. Please download
             the street letters for further details.
           </p>
+          <p>
+            Please see first of all the most recent update on the project from
+            Barnhale themselves
+          </p>
+          <img
+            src={require("../images/thamesBarnaleUpdate1.png")}
+            alt="letter preview"
+            class="img-fluid row mt-3 mb-4 "
+            style={{ width: "800px", height: "auto" }}
+          />
+          <p>
+            The following are details of when the various street works are
+            expected to take place
+          </p>
           <img
             src={require("../images/letterpreview.png")}
             alt="letter preview"
