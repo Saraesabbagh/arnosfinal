@@ -16,17 +16,12 @@ export const Eventspage = () => {
       <div class="center-container">
         <section class="events-poster">
           <img
-            src={require("../images/xmaseventposter.jpeg")}
+            src={require("../images/sizzler.jpeg")}
             alt="park events list"
             class="img-fluid row mt-3 mb-4 "
             style={{ width: "500px", height: "auto" }}
           />
-          <img
-            src={require("../images/XmasParkFunrun.jpg")}
-            alt="park events list"
-            class="img-fluid row mt-3 mb-4 "
-            style={{ width: "500px", height: "auto" }}
-          />
+
           <img
             src={require("../images/parkevents.jpeg")}
             alt="park events list"
