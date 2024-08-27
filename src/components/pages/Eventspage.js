@@ -16,7 +16,7 @@ export const Eventspage = () => {
       <div class="center-container">
         <section class="events-poster">
           <img
-            src={require("../images/sizzler.jpeg")}
+            src={require("../images/agm-poster.png")}
             alt="park events list"
             class="img-fluid row mt-3 mb-4 "
             style={{ width: "500px", height: "auto" }}
