@@ -21,6 +21,12 @@ export const Eventspage = () => {
             class="img-fluid row mt-3 mb-4 "
             style={{ width: "500px", height: "auto" }}
           />
+          <img
+            src={require("../images/2024-halloween-poster.jpg")}
+            alt="park events list"
+            class="img-fluid row mt-3 mb-4 "
+            style={{ width: "500px", height: "auto" }}
+          />
 
           <img
             src={require("../images/parkevents.jpeg")}
